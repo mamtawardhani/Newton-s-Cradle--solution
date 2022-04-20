@@ -56,29 +56,11 @@ function draw() {
 }
 
 
-//CHOOSE THE CORRECT OPTION TO APPLY A KEYPRESSED TO CHANGE THE POSITION OF BALL OBJECT TO THE LEFT WHEN UP ARROW KEY IS PRESSED
-
-// function keyPressed() {
-// 	if (keyCode === DOWN_ARROW) {
-// 		Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-50,y:-45});
-// 	}
-// }
-
-// function keyPressed() {
-// 	if (keyCode === UP_ARROW) {
-// 		Matter.Body.applyForce(bob1,bob1.position,{x:-50,y:-45});
-// 	}
-// }
-
-// function keyPressed() {
-// 	if (keyCode === UP_ARROW) {
-// 		Matter.Body.applyForce(bob1.body,{x:-50,y:-45});
-// 	}
-// }
 
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
-		Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-50,y:-45});
+		//CODE TO APPLY A KEYPRESSED TO CHANGE THE POSITION OF BALL OBJECT TO THE LEFT WHEN UP ARROW KEY IS PRESSED
+
 	}
 }
 
